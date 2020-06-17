@@ -7,7 +7,7 @@ const h1 = document.querySelector("h1");
 const img1 = document.querySelector(".img1");
 const img2 = document.querySelector(".img2");
 
-// Output
+// Changing h1 based on the output
 if (randomNum1 > randomNum2) {
     h1.innerText = "🚩Player 1 Wins!";
 } else if (randomNum1 < randomNum2) {
